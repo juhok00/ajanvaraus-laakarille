@@ -10,6 +10,6 @@ Sovelluksen avulla asiakas voi varata ajan eri lääkärille ja jättää esitie
     - yksi lääkäri voi olla esim. yleislääkäri + erikoistunut johonkin tiettyyn toimialaan jolloin ajanvaraus muuttaa kyseisen lääkärin vapaita aikoja kaikilla toimialoillaan
 - käyttäjä voi muokata varausta tiettyyn aikaväliin asti esim. 24h ennen varatun ajan alkua
     - muokata = perua/vaihtaa toiseen aikaan
-- 
+
 
 jos aihe ei ole tarpeeksi kattava niin valitsen esimerkeistä keskustelusovelluksen
