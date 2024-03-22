@@ -13,3 +13,13 @@ Sovelluksen avulla asiakas voi varata ajan eri lääkärille ja jättää esitie
 
 
 jos aihe ei ole tarpeeksi kattava niin valitsen esimerkeistä keskustelusovelluksen
+
+
+# välipalautus 2
+
+- sovellukselle on luotu sql-taulukot ja ne on täytetty tarvittavilla tiedoilla
+- kaksi ensimmäistä templatea on saanut vähän alustavaa muotoa, eli welcome.html (kirjautuminen/rekisteröinti) ja location.html (toimipisteen valinta)
+- muutama moduuli on saanut muotoa nyt alkuun kirjautumista/rekisteröintiä silmällä pitäen
+
+- vähän on vielä python tiedostojen yhdistelyssä ymmärtämistä, aloin aluksi tekemään yksittäistä app.py tiedostoa mihin laittaisin kaikki kunnes tajusin, että vaatimuksina oli moduulit
+- haluaisin palautetta/neuvoa siinä, että miten nyt saan tätä testattua? nyt kun käynnistän ohjelman ja yritän rekisteröityä niin tulee erroria
