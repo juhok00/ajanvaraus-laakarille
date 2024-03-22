@@ -1,0 +1,11 @@
+
+
+<h1>Valitse sijainti:</h1> <br>
+
+
+{% for city in cities %}
+{{city.city_name}}
+<input type="radio" name="city" value="{{city.id}}"> {{city.city_name}} <br>
+
+
+
