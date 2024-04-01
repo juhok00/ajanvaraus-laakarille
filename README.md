@@ -22,4 +22,6 @@ jos aihe ei ole tarpeeksi kattava niin valitsen esimerkeistä keskustelusovelluk
 - muutama moduuli on saanut muotoa nyt alkuun kirjautumista/rekisteröintiä silmällä pitäen
 
 - vähän on vielä python tiedostojen yhdistelyssä ymmärtämistä, aloin aluksi tekemään yksittäistä app.py tiedostoa mihin laittaisin kaikki kunnes tajusin, että vaatimuksina oli moduulit
-- haluaisin palautetta/neuvoa siinä, että miten nyt saan tätä testattua? nyt kun käynnistän ohjelman ja yritän rekisteröityä niin tulee erroria
+
+
+- nyt rekisteröityminen/kirjautuminen on saatu toimimaan ja salasana tallennetaan users taulukkoon hajautusarvona
