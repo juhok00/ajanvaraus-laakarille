@@ -1,0 +1,16 @@
+
+
+
+<h1>Lääkärit:</h1> <br>
+
+<ul>
+
+{% for doctor in doctors %}
+
+<li>{{ doctor.doctor_name }} - Erikoistuminen: {{ doctor.specialization_name }}</li>
+
+{% endfor %}
+
+</ul>
+
+<a href="/location">Valitse toinen kaupunki</a>
