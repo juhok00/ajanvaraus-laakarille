@@ -12,16 +12,16 @@ def login_user(username, password):
     result = db.session.execute(sql, {"username":username})
     user = result.fetchone()
     if not user:
-        print("User not found")
+        print("Ei löytynyt")     #       debug
         return False
     else:
         user_id, user_password_hash = user
         if check_password_hash(user_password_hash, password):
             session["user_id"] = user_id
-            print("User ID set in session:", session["user_id"])
+            print("user id:", session["user_id"])    #       debug
             return True
         else:
-            print("Password check failed.")
+            print("salasana epäonnistui")     #       debug
             return False
         
 def logout():
