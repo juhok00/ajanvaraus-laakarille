@@ -1,14 +1,28 @@
 <h1>Vapaat ajat päivälle {{ date }}</h1>
 <form action="/confirmation" method="POST">
-    <input type="hidden" name="appointment_date" value="{{ date }}">
-    <ul>
-    {% for time in available_times %}
-        <li>
-            <input type="radio" name="appointment_time" value="{{ time }}" required>
-            {{ time }}
-        </li>
-    {% endfor %}
-    </ul>
-    <button type="submit">Varaa aika</button>
+
+<input type="hidden" name="doctor_id" value="{{ doctor_id }}">
+<input type="hidden" name="appointment_date" value="{{ date }}">
+
+
+
+{% for time in available_times %}
+
+
+
+<input type="radio" name="appointment_time" value="{{ time }}>{{ time }}
+
+
+
+{% endfor %}
+
+
+<label>Esitiedot:</label>
+<textarea name="details"></textarea>
+
+
+<button type="submit">Varaa aika</button>
 </form>
-<a href="/pick_date">Takaisin</a>
+
+
+<a href="/">Takaisin</a>
