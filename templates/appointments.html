@@ -1,0 +1,14 @@
+<h1>Vapaat ajat päivälle {{ date }}</h1>
+<form action="/confirmation" method="POST">
+    <input type="hidden" name="appointment_date" value="{{ date }}">
+    <ul>
+    {% for time in available_times %}
+        <li>
+            <input type="radio" name="appointment_time" value="{{ time }}" required>
+            {{ time }}
+        </li>
+    {% endfor %}
+    </ul>
+    <button type="submit">Varaa aika</button>
+</form>
+<a href="/pick_date">Takaisin</a>
