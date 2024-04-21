@@ -1,16 +1,17 @@
+<h1>Lääkärit kaupungissasi:</h1> <br>
 
-
-
-<h1>Lääkärit:</h1> <br>
-
-<ul>
+<form action="/pick_date" method="POST">
 
 {% for doctor in doctors %}
 
-<li>{{ doctor.doctor_name }} - Erikoistuminen: {{ doctor.specialization_name }}</li>
+<input type="radio" name="doctor_id" value="{{doctor.id}}">
+<label for="doctor{{ doctor.id }}">{{ doctor.doctor_name }} - {{ doctor.specialization_name }}</label><br>
 
 {% endfor %}
 
-</ul>
+
+<p>
+<input type="submit" value="Valitse päivämäärä">
+</p>
 
 <a href="/location">Valitse toinen kaupunki</a>
