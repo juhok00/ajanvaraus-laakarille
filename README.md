@@ -12,8 +12,6 @@ Sovelluksen avulla asiakas voi varata ajan eri lääkärille ja jättää esitie
     - muokata = perua/vaihtaa toiseen aikaan
 
 
-jos aihe ei ole tarpeeksi kattava niin valitsen esimerkeistä keskustelusovelluksen
-
 
 # välipalautus 2
 
@@ -25,3 +23,10 @@ jos aihe ei ole tarpeeksi kattava niin valitsen esimerkeistä keskustelusovelluk
 
 
 - nyt rekisteröityminen/kirjautuminen on saatu toimimaan ja salasana tallennetaan users taulukkoon hajautusarvona
+
+
+
+# välipalautus 3
+
+- sovellus on saamassa lopullista muotoaan mutta toiminta takkuilee siirryttäessä päivämäärän valinnasta ajankohdan valintaan (työn alla)
+- myös schema.sql tiedosto aiheuttaa itsellä ongelmia (ilmeisesti sen takia, että koneellani on jo taulut muodostettuna)
