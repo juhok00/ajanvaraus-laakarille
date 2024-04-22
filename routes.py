@@ -75,7 +75,7 @@ def pick_date():
     doctor_id = request.form.get("doctor_id")
 
     if "user_id" in session:
-        return render_template("appointments.html", doctor_id=doctor_id)
+        return render_template("date.html", doctor_id=doctor_id)
     else:
         return redirect("/")
 
