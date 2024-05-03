@@ -10,6 +10,20 @@ Sovelluksen avulla asiakas voi varata ajan eri lääkärille ja jättää esitie
     - yksi lääkäri voi olla esim. yleislääkäri + erikoistunut johonkin tiettyyn toimialaan jolloin ajanvaraus muuttaa kyseisen lääkärin vapaita aikoja kaikilla toimialoillaan
 - käyttäjä voi muokata varausta tiettyyn aikaväliin asti esim. 24h ennen varatun ajan alkua
     - muokata = perua/vaihtaa toiseen aikaan
+ 
+
+# käynnistys
+
+1. mkdir app
+2. cd app
+3. git init
+4. git clone https://github.com/juhok00/ajanvaraus-laakarille
+5. cd ajanvaraus-laakarille
+6. python3 -m venv venv
+7. source venv/bin/activate
+8. pip install -r ./requirements.txt
+9. psql < schema.sql
+10. flask run
 
 
 
