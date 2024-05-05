@@ -7,6 +7,7 @@ LOPPUPALAUTUS
 - nyt ohjelma selviää kaupunginvalintaan, mutta mitään kaupunkeja ei tule valittavaksi eli ongelma on nimenomaan tietokannasta hakemisessa yms?
 - alunperin schema.sql oli tehty sql dump metodilla mutta tämän toimintaa en tajunnut kokeilla kun pyöritin ohjelmaa oman koneen tietokannasta
 - koodissa näkyy yritykseni toteuttaa CSRF haavoittuvuuden korjaus ja muutettu schema.sql tiedosto
+- yritin myös lisäillä virheviestejä flaskin flash viesteillä mutta sen toteutus takkuili
 
 - jos projekti ei riitä kurssin läpäisemiseen niin pyydän hieman lisäaikaa ongelmien korjailuun
 
