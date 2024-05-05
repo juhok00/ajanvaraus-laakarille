@@ -1,4 +1,14 @@
+{% if session.user_id %}
+<p>Kirjauduit ulos</p>
+<a href="/logout">Takaisin kirjautumaan</a>
+{% else %}
+
+
+
+<h1>Tervetuloa terveyspalveluiden ajanvarausjärjestelmään</h1>
+
 <form action="/login" method="POST">
+
 <h2>Kirjaudu sisään</h2>
 <p>Käyttäjätunnus:<br>
 <input type="text" name="username"></p>
@@ -7,7 +17,9 @@
 <input type="submit" value="Kirjaudu">
 </form>
 
+
 <form action="/register" method="POST">
+<input type="hidden" name="csrf_token" value="{{ csrf_token }}">
 
 <h2>Luo tili</h2>
 <p>Valitse käyttäjätunnus:<br>
