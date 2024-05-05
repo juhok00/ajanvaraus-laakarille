@@ -1,5 +1,15 @@
 # ajanvaraus-laakarille
 
+LOPPUPALAUTUS
+- rajoitetun ajan ja muiden tenttien takia aika jäi rajalliseksi loppupalautuksen suhteen
+- yritin parhaani huomioida viimeisen välipalautuksen arvioinnin seikkoja CSRF haavoittuvuuden ja schema.sql tiedoston suhteen mutta ohjelma ei täysin toimi
+- ennen muutoksia sain omalla koneella toimimaan päivämäärän valintaan asti, johon jäin viimeiseen välipalautukseen (tämä siis oli kun pyöritin ohjelmaa omalla koneella olevalta tietokannalta)
+- nyt ohjelma selviää kaupunginvalintaan, mutta mitään kaupunkeja ei tule valittavaksi eli ongelma on nimenomaan tietokannasta hakemisessa yms?
+- alunperin schema.sql oli tehty sql dump metodilla mutta tämän toimintaa en tajunnut kokeilla kun pyöritin ohjelmaa oman koneen tietokannasta
+- koodissa näkyy yritykseni toteuttaa CSRF haavoittuvuuden korjaus ja muutettu schema.sql tiedosto
+
+- jos projekti ei riitä kurssin läpäisemiseen niin pyydän hieman lisäaikaa ongelmien korjailuun
+
 Sovelluksen avulla asiakas voi varata ajan eri lääkärille ja jättää esitietoja tapaamiseen liittyen kommentin muodossa. 
 
 - käyttäjä voi kirjautua sisään ja ulos sekä luoda tunnuksen
